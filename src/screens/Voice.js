@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { StyleSheet, View, ImageBackground, Text, Image } from "react-native";
 import Svg, { Ellipse } from "react-native-svg";
 
-function Voice(props) {
+function Voice({ navigation }) {
   return (
     <View style={styles.container}>
       <ImageBackground
@@ -10,8 +10,6 @@ function Voice(props) {
         imageStyle={styles.rect2_imageStyle}
         source={require("../assets/images/Gradient_TT6r16h.png")}
       >
-        <Text style={styles.voiceAssistant}>Voice Assistant</Text>
-        <View style={styles.rect1}></View>
         <View style={styles.group2}>
           <Text style={styles.turnOffMySmartTv}>Turn off my smart tv</Text>
           <Text style={styles.lockTheFrontDoor}>Lock the front door</Text>
@@ -82,32 +80,15 @@ const styles = StyleSheet.create({
     elevation: 5,
     shadowOpacity: 0.3,
     shadowRadius: 0,
-    marginTop: 57,
     marginLeft: -188
   },
   rect2_imageStyle: {},
-  voiceAssistant: {
-    fontFamily: "roboto-700",
-    color: "rgba(255,255,255,1)",
-    fontSize: 28,
-    width: 197,
-    height: 33,
-    marginTop: 5,
-    marginLeft: 270
-  },
-  rect1: {
-    width: 500,
-    height: 7,
-    backgroundColor: "rgba(255,255,255,1)",
-    marginTop: 5,
-    marginLeft: 118
-  },
   group2: {
     width: 296,
     height: 223,
     justifyContent: "flex-end",
     alignItems: "center",
-    marginTop: 7,
+    marginTop: 16,
     marginLeft: 220
   },
   turnOffMySmartTv: {
@@ -159,7 +140,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     width: 118,
     height: 31,
-    marginTop: 18,
+    marginTop: 53,
     marginLeft: 309
   },
   ellipse: {
