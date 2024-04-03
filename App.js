@@ -2,7 +2,8 @@
 
 import React, {useState} from 'react';
 import {View, Text, Button, StyleSheet} from 'react-native';
-import ListNotifications from './Components/ListNotifications.js';
+import ListNotifications from './src/screens/ListNotifications.js';
+import Voice from './src/screens/Voice.js';
 
 const App = () => {
     const [count, setCount] = useState(0);

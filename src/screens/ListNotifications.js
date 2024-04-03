@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { StyleSheet, View, Image, Text } from "react-native";
 import FontAwesomeIcon from "react-native-vector-icons/FontAwesome";
 
-function NotificationsList(props) {
+function ListNotifications(props) {
   return (
     <View style={styles.container}>
       <View style={styles.group7}>
@@ -179,6 +179,8 @@ function NotificationsList(props) {
       </View>
       <Text style={styles.frontDoorLock}>Front Door Lock</Text>
       <Text style={styles.loremIpsum4}>Front Eufi Smart Camera</Text>
+      <View style={styles.rect7}></View>
+      <Text style={styles.notifications}>Notifications</Text>
     </View>
   );
 }
@@ -191,7 +193,7 @@ const styles = StyleSheet.create({
     width: 339,
     height: 264,
     alignItems: "center",
-    marginTop: 131,
+    marginTop: 171,
     alignSelf: "center"
   },
   group: {
@@ -439,7 +441,7 @@ const styles = StyleSheet.create({
   },
   group6: {
     justifyContent: "center",
-    marginTop: 96,
+    marginTop: 56,
     alignSelf: "center"
   },
   group3: {
@@ -692,16 +694,30 @@ const styles = StyleSheet.create({
     fontFamily: "roboto-900",
     color: "rgba(43,71,104,1)",
     fontSize: 18,
-    marginTop: -313,
+    marginTop: -303,
     alignSelf: "center"
   },
   loremIpsum4: {
     fontFamily: "roboto-900",
     color: "rgba(43,71,104,1)",
     fontSize: 18,
-    marginTop: -386,
+    marginTop: -340,
     alignSelf: "center"
+  },
+  rect7: {
+    width: 500,
+    height: 7,
+    backgroundColor: "rgba(123,123,123,1)",
+    marginTop: -49,
+    marginLeft: -62
+  },
+  notifications: {
+    fontFamily: "roboto-700",
+    color: "rgba(72,72,72,1)",
+    fontSize: 28,
+    marginTop: -50,
+    marginLeft: 11
   }
 });
 
-export default NotificationsList;
+export default ListNotifications;
