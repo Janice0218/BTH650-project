@@ -5,10 +5,10 @@ import {View, Text, Button, StyleSheet} from 'react-native';
 import NotificationsList from './src/screens/NotificationsList.js';
 import Voice from './src/screens/Voice.js';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { useFonts } from 'expo-font';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 
-const Stack = createNativeStackNavigator();
+const Drawer = createDrawerNavigator();
 
 const App = () => {
     const [count, setCount] = useState(0);
@@ -23,10 +23,10 @@ const App = () => {
 
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName="Notifications List View">
-                <Stack.Screen name="Notifications List View" component={NotificationsList} />
-            <Stack.Screen name="Voice Assistant" component={Voice} />
-            </Stack.Navigator>
+            <Drawer.Navigator initialRouteName="Notifications List View">
+                <Drawer.Screen name="Notifications List View" component={NotificationsList} />
+                <Drawer.Screen name="Voice Assistant" component={Voice} />
+            </Drawer.Navigator>
         </NavigationContainer>
     );
 };

@@ -5,10 +5,10 @@ import FontAwesomeIcon from "react-native-vector-icons/FontAwesome";
 function NotificationsList({ navigation }) {
   return (
       <View style={styles.container}>
-        <Button
-      title="Go to Voice Assistant"
-      onPress={() => navigation.navigate('Voice Assistant')}
-          />
+          { /*   <Button
+       title="Go to Voice Assistant"
+       onPress={() => navigation.navigate('Voice Assistant')}
+       /> */ }
       <View style={styles.group7}>
         <View style={styles.group}>
           <View style={styles.rect1Stack}>
