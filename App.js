@@ -6,6 +6,8 @@ import NotificationsList from './src/screens/NotificationsList.js';
 import Voice from './src/screens/Voice.js';
 import Profile from './src/screens/Profile.js';
 import Setting from './src/screens/Setting.js';
+import Dashboard from './src/screens/Dashboard.js';
+import Devices from './src/screens/Devices.js';
 import { NavigationContainer } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import { createDrawerNavigator } from '@react-navigation/drawer';
@@ -21,6 +23,7 @@ const App = () => {
         'roboto-700': require('./src/assets/fonts/roboto-700.ttf'),
         'roboto-900': require('./src/assets/fonts/roboto-900.ttf'),
         'roboto-regular': require('./src/assets/fonts/roboto-regular.ttf'),
+        'inter-regular': require('./src/assets/fonts/inter-regular.ttf'),
     });
 
     return (
@@ -30,6 +33,8 @@ const App = () => {
                 <Drawer.Screen name="Voice Assistant" component={Voice} />
                 <Drawer.Screen name="Profile" component={Profile} />
                 <Drawer.Screen name="Setting" component={Setting} />
+                <Drawer.Screen name="Dashboard" component={Dashboard} />
+                <Drawer.Screen name="Devices" component={Devices} />
             </Drawer.Navigator>
         </NavigationContainer>
     );
