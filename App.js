@@ -4,6 +4,8 @@ import React, {useState} from 'react';
 import {View, Text, Button, StyleSheet} from 'react-native';
 import NotificationsList from './src/screens/NotificationsList.js';
 import Voice from './src/screens/Voice.js';
+import Profile from './src/screens/Profile.js';
+import Setting from './src/screens/Setting.js';
 import { NavigationContainer } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import { createDrawerNavigator } from '@react-navigation/drawer';
@@ -26,6 +28,8 @@ const App = () => {
             <Drawer.Navigator initialRouteName="Notifications List View">
                 <Drawer.Screen name="Notifications List View" component={NotificationsList} />
                 <Drawer.Screen name="Voice Assistant" component={Voice} />
+                <Drawer.Screen name="Profile" component={Profile} />
+                <Drawer.Screen name="Setting" component={Setting} />
             </Drawer.Navigator>
         </NavigationContainer>
     );
