@@ -21,7 +21,7 @@ const Profile = () => {
         <Text style={styles.infoTitle}>Basic info</Text>
         <View style={styles.infoRow}>
           <Text style={styles.infoLabel}>Name</Text>
-          <Text style={styles.infoValue}>Minying Chen</Text>
+          <Text style={styles.infoValue}>Janice</Text>
         </View>
         <View style={styles.infoRow}>
           <Text style={styles.infoLabel}>Birthday</Text>
@@ -37,11 +37,11 @@ const Profile = () => {
         <Text style={styles.infoTitle}>Contact info</Text>
         <View style={styles.infoRow}>
           <Text style={styles.infoLabel}>Email</Text>
-          <Text style={styles.infoValue}>mchen145@myseneca.ca</Text>
+          <Text style={styles.infoValue}>123@myseneca.ca</Text>
         </View>
         <View style={styles.infoRow}>
           <Text style={styles.infoLabel}>Phone</Text>
-          <Text style={styles.infoValue}>(647)289-5127</Text>
+          <Text style={styles.infoValue}>(647)289-0000</Text>
         </View>
         <View style={styles.line}></View>
       </View>
