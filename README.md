@@ -12,3 +12,10 @@
 
 ### Devices page: <br>
 ![screen2](https://github.com/Janice0218/BTH650-project/assets/113650461/6402844d-7f67-4ab8-8d38-eb768a981feb)
+
+### Setting page: <br>
+![pic1](https://github.com/Janice0218/BTH650-project/assets/43356495/5ef21332-63e1-44c5-8931-15839c4200ba)
+
+### Profile page: <br>
+![pic2](https://github.com/Janice0218/BTH650-project/assets/43356495/0ac24146-a14f-436c-9154-4409386b4124)
+
