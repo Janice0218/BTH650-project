@@ -1,6 +1,19 @@
 ﻿# BTH650-project
 ## Screenshots
 
+## Onboarding page: <br>
+![Onboarding](https://github.com/Janice0218/BTH650-project/assets/105070638/058dd65f-aab2-49ab-967e-681056ebe874)
+
+### Login page: <br>
+![Login](https://github.com/Janice0218/BTH650-project/assets/105070638/84291e80-0a4d-4d5b-a482-1be2dc266317)
+
+### Sign Up page: <br>
+![SignUp](https://github.com/Janice0218/BTH650-project/assets/105070638/269196db-65de-4792-ac68-847b29aa3f5b)
+
+### SignUp Successful page: <br>
+![SignUp_Successful](https://github.com/Janice0218/BTH650-project/assets/105070638/51492c0d-dd5b-4b67-ae27-8f272ad88b40)
+
+
 ### Voice Assistant page: <br>
 ![Screenshot_20240404_122017](https://github.com/Janice0218/BTH650-project/assets/94078756/53dc6b72-9ce1-49bf-a77e-9fbb5a39493c)
 
